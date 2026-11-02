@@ -17,7 +17,7 @@
 <br/>
 
 **Authored by [Avijeet Tiwari](https://github.com/AvijeetTiwari3)**  
-*Statistical Modeling & Applied Inference | Google Data Scientist Portfolio Standard*
+
 
 </div>
 
