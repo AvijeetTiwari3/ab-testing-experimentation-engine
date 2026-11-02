@@ -1,0 +1,31 @@
+experiment:
+  name: "Landing Page Optimization A/B Experiment"
+  description: "Evaluation of conversion lift from redesigned e-commerce checkout landing page"
+  control_group: "control"
+  treatment_group: "treatment"
+  control_page: "old_page"
+  treatment_page: "new_page"
+  primary_metric: "conversion_rate"
+  secondary_metrics: ["retention_proxy", "churn_risk"]
+
+statistical:
+  alpha: 0.05                    # Type I error rate (significance level)
+  power: 0.80                    # 1 - Type II error rate (statistical power)
+  mde: 0.01                      # Minimum Detectable Effect (1.0% absolute lift)
+  test_type: "two_sided"
+
+corrections:
+  method: "benjamini-hochberg"   # False Discovery Rate (FDR) control for multi-metric audits
+  sequential_alpha_spending: "obrien-fleming"
+
+bayesian:
+  prior_alpha: 1.0               # Uniform prior Beta(1, 1)
+  prior_beta: 1.0
+  rope_width: 0.001              # Region of Practical Equivalence (±0.1% lift)
+  n_simulations: 100000          # Monte Carlo iterations
+  decision_threshold: 0.95       # Probability threshold to recommend shipping treatment
+
+data_paths:
+  raw_ab_data: "data/raw/ab_data.csv"
+  raw_countries: "data/raw/countries.csv"
+  processed_data: "data/processed/clean_experiment_data.csv"
