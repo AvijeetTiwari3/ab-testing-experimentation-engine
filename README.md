@@ -3,10 +3,12 @@
 
 [![CI Build](https://img.shields.io/badge/CI-Passing-2ea44f.svg?style=flat-square&logo=githubactions)](https://github.com/AvijeetTiwari3/ab-testing-experimentation-engine)
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square&logo=python)](https://www.python.org/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Dashboard-FF4B4B.svg?style=flat-square&logo=streamlit)](https://ab-testing-experimentation-engine-5odwbn9didoy4k7udzlaz3.streamlit.app/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688.svg?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg?style=flat-square&logo=streamlit)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?style=flat-square&logo=docker)](Dockerfile)
+
+> 🚀 **Live Interactive Dashboard:** [https://ab-testing-experimentation-engine-5odwbn9didoy4k7udzlaz3.streamlit.app/](https://ab-testing-experimentation-engine-5odwbn9didoy4k7udzlaz3.streamlit.app/)
 
 ---
 
